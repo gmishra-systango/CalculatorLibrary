@@ -3,7 +3,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.13.0-slim
+      - image: circleci/python:3.9-buster-node-browsers-legacy
+
 
     working_directory: ~/repo
 
